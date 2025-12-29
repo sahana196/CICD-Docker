@@ -177,7 +177,7 @@ CICD-Docker/
 
 ### Railway Deployment
 
-![Railway Deployment](C:\Users\HP\Desktop\CICD-Docker\railway deployment\image.png)
+![Railway Deployment](railway%20deployment/image.png)
 
 ---
 
