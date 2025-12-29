@@ -57,11 +57,6 @@ graph LR
 | **Testing** | JUnit 5 |
 | **Cloud** | Railway |
 
-### Docker Hub Repository
-
-![Docker Hub Deployment](C:/Users/HP/.gemini/antigravity/brain/92e6442d-fb26-41d6-b882-1776568a6deb/docker_hub_screenshot.png)
-
-
 ---
 
 ## 🚀 API Endpoints
@@ -179,6 +174,10 @@ CICD-Docker/
 - `DOCKERHUB_USERNAME` - Docker Hub username
 - `DOCKERHUB_TOKEN` - Docker Hub access token
 - `RAILWAY_TOKEN` - Railway deployment token (optional)
+
+### Railway Deployment
+
+![Railway Deployment](C:\Users\HP\Desktop\CICD-Docker\railway deployment\image.png)
 
 ---
 
