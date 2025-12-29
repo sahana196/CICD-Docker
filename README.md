@@ -55,7 +55,7 @@ graph LR
 | **Containerization** | Docker |
 | **CI/CD** | GitHub Actions |
 | **Testing** | JUnit 5 |
-| **Cloud** | Render / Railway |
+| **Cloud** | Railway |
 
 ---
 
@@ -173,7 +173,7 @@ CICD-Docker/
 ### Required GitHub Secrets:
 - `DOCKERHUB_USERNAME` - Docker Hub username
 - `DOCKERHUB_TOKEN` - Docker Hub access token
-- `RENDER_DEPLOY_HOOK_URL` - Deployment webhook (optional)
+- `RAILWAY_TOKEN` - Railway deployment token (optional)
 
 ---
 
