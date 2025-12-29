@@ -93,24 +93,4 @@ jobs:
       - name: Image digest
         run: echo "Image pushed with tags - ${{ steps.meta.outputs.tags }}"
 
-  deploy:
-    name: Deploy to Render
-    needs: docker-build-push
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
-    
-    steps:
-      - name: Trigger Render deployment
-        continue-on-error: true
-        run: |
-          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
-      
-      - name: Deployment status
-        run: |
-          if [ -z "${{ secrets.RENDER_DEPLOY_HOOK_URL }}" ]; then
-            echo "⚠️ RENDER_DEPLOY_HOOK_URL not configured. Skipping deployment."
-            echo "To enable auto-deployment, add your Render deploy hook URL as a GitHub secret."
-          else
-            echo "✅ Deployment triggered successfully!"
-            echo "Check your Render dashboard for deployment status."
-          fi
+ 
