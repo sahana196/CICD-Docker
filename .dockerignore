@@ -1,0 +1,7 @@
+target
+.mvn
+.git
+.github
+*.md
+*.iml
+/.idea
