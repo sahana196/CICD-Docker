@@ -57,6 +57,11 @@ graph LR
 | **Testing** | JUnit 5 |
 | **Cloud** | Railway |
 
+### Docker Hub Repository
+
+![Docker Hub Deployment](C:/Users/HP/.gemini/antigravity/brain/92e6442d-fb26-41d6-b882-1776568a6deb/docker_hub_screenshot.png)
+
+
 ---
 
 ## 🚀 API Endpoints
